@@ -1,4 +1,6 @@
 /* global React: false, ReactDOM: false*/
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 const SUCCESS = 'SUCCESS';
 const FAILURE = 'FAILURE';
