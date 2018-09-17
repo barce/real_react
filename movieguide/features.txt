@@ -1,0 +1,7 @@
+
+• Each movie has a title and a day.
+• Each movie is listed under the day it shows on.
+• The user interface loads first, then the movies are fetched.
+• Users can select each movie in the calendar as a favorite.
+• Users can toggle between showing all the movies or only their favorites.
+
