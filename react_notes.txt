@@ -1,17 +1,25 @@
 mkdir project
 cd project
-npm init -y
+npm init -y # use this to create package.json
 npm i --save-dev webpack
+vim webpack.config.js
 npm i --save-dev babel-loader babel-core babel-preset-react-app
 vim .babelrc
 npm i --save-dev cross-env
+# add line to package.json in scripts {}:
+# "build": "cross-env NODE_ENV=production webpack -p",
 npm install webpack-cli
 npm install babel-loader@7
 npm i --save react react-dom
 npm i --save-dev webpack-dev-server
+# add line to pakcage.json in scripts {}:
+#     "start": "cross-env NODE_ENV=development webpack-dev-server -d"
 
+#### testing ####
 npm i --save-dev jest
 npm i --save-dev babel-jest
+#### testing ####
+
 
 npm install react-notification-system
 npm i --save-dev react-notification-system
@@ -28,3 +36,11 @@ npm i --save-dev enzyme react-test-renderer
 # update snapshots
 npm test -- -u
 
+####
+# redux -- movie guide notes
+####
+
+npm i --save redux-devtools-extension                                                                                                          [10:18:55]
+npm i --save redux
+npm i --save-dev redux-devtools-extension                                                                                                          [10:18:55]
+npm i --save-dev redux
