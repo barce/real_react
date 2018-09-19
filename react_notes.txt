@@ -1,0 +1,30 @@
+mkdir project
+cd project
+npm init -y
+npm i --save-dev webpack
+npm i --save-dev babel-loader babel-core babel-preset-react-app
+vim .babelrc
+npm i --save-dev cross-env
+npm install webpack-cli
+npm install babel-loader@7
+npm i --save react react-dom
+npm i --save-dev webpack-dev-server
+
+npm i --save-dev jest
+npm i --save-dev babel-jest
+
+npm install react-notification-system
+npm i --save-dev react-notification-system
+
+#######
+npm run build # to keep app-bundle.js up-to-date
+npm test # for testing; leave running
+npm start  # for web server / continuous code linting
+#######
+
+# install snapshot functionality
+npm i --save-dev enzyme react-test-renderer
+
+# update snapshots
+npm test -- -u
+
